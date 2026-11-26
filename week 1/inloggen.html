@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volksbank - Inloggen</title>
+    <link rel="stylesheet" href="inloggen.css">
+</head>
+<body>
+    <header class="topbar">
+        <a class="logo" href="inloggen.html" aria-label="Volksbank startpagina">
+            Volksbank
+        </a>
+        <button class="menu-button" type="button" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+    <main class="login-layout">
+        <section class="login-card" aria-labelledby="login-title">
+            <h1 id="login-title">Inloggen</h1>
+            <form>
+                <div class="field">
+                    <label for="gebruikersnaam">Gebruikersnaam</label>
+                    <input type="text" id="gebruikersnaam" name="gebruikersnaam" autocomplete="username" required>
+                </div>
+                <div class="field">
+                    <label for="wachtwoord">Wachtwoord</label>
+                    <input type="password" id="wachtwoord" name="wachtwoord" autocomplete="current-password" required>
+                </div>
+                <button class="login-button" type="submit">Inloggen</button>
+            </form>
+        </section>
+        <aside class="login-image">
+            <img src="../img/mensen%20samen.webp" alt="Mensen die samen hand in hand staan">
+        </aside>
+    </main>
+    <footer>© Willow Tarmond, Techniek College Rotterdam 2026-2027</footer>
+</body>
+</html>
